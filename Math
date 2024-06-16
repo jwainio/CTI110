@@ -1,0 +1,14 @@
+# Jack Wainio
+ # June 16th
+ # P1HW1
+ # A basic code of mathmatical elements
+base_value = int(input("Enter an integer as a base value:"))
+exponent = int(input("Enter an integer as a exponent:"))
+answer = base_value ** exponent
+print(f"{base_value} raised to the power of {exponent} is {answer}")
+
+starting_integer = int(input("Enter an integer as a starting integer"))
+added_value = int(input("Enter an integer to be added"))
+subtracted_value = int(input("Enter an integer to be subtracted"))
+solution = starting_integer + added_value - subtracted_value
+print(f"{starting_integer} + {added_value} - {subtracted_value} is equal to {solution}")
